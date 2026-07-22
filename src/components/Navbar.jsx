@@ -17,7 +17,7 @@ const navLinks = [
       { label: 'Featured Fund', href: '/#featured' },
     ]
   },
-  { label: 'Products', href: '/#products' },
+  { label: 'Compare Funds', href: '/compare' },
   {
     label: 'Calculators', href: '/calculators/sip', dropdown: [
       { label: 'SIP Calculator', href: '/calculators/sip' },
@@ -27,10 +27,9 @@ const navLinks = [
       { label: 'Retirement Calculator', href: '/calculators/retirement' },
     ]
   },
-  { label: 'Research', href: '/#research' },
-  { label: 'Blog', href: '/#blog' },
-  { label: 'About', href: '/#about' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Blog', href: '/blogs' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 export default function Navbar() {

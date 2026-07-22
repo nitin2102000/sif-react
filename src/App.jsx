@@ -7,6 +7,11 @@ import SwpCalculator from './pages/SwpCalculator'
 import LumpsumCalculator from './pages/LumpsumCalculator'
 import StepUpSipCalculator from './pages/StepUpSipCalculator'
 import RetirementCalculator from './pages/RetirementCalculator'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Blogs from './pages/Blogs'
+import BlogDetails from './pages/BlogDetails'
+import CompareFunds from './pages/CompareFunds'
 import './index.css'
 
 function App() {
@@ -16,11 +21,16 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/funds" element={<Funds />} />
         <Route path="/funds/:id" element={<FundDetails />} />
+        <Route path="/compare" element={<CompareFunds />} />
         <Route path="/calculators/sip" element={<SipCalculator />} />
         <Route path="/calculators/swp" element={<SwpCalculator />} />
         <Route path="/calculators/lumpsum" element={<LumpsumCalculator />} />
         <Route path="/calculators/step-up-sip" element={<StepUpSipCalculator />} />
         <Route path="/calculators/retirement" element={<RetirementCalculator />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:slug" element={<BlogDetails />} />
       </Routes>
     </BrowserRouter>
   )
