@@ -1,0 +1,157 @@
+export const fundDetails = {
+  id: 1,
+  name: 'SIF Blue Chip Growth Fund',
+  logo: '💰',
+  logoColor: 'from-blue-600 to-indigo-700',
+  amc: 'SIF Asset Management Co. Ltd.',
+  category: 'Large Cap',
+  assetClass: 'Equity',
+  schemeType: 'Open Ended',
+  benchmark: 'NIFTY 100 TRI',
+  launchDate: '15 March 2015',
+  fundSize: '₹8,240 Cr',
+  nav: '₹142.35',
+  navDate: '18 Jul 2026',
+  navChange: '+0.84',
+  navChangePct: '+0.59%',
+  returns: {
+    '1M': 3.2, '3M': 8.1, '6M': 14.5, '1Y': 28.4, '3Y': 19.2, '5Y': 16.8, 'Since Launch': 18.6,
+  },
+  expenseRatio: 0.92,
+  exitLoad: '1% if redeemed within 12 months',
+  minimumSIP: '₹500',
+  minimumLumpsum: '₹5,000',
+  risk: 'Moderate',
+  riskScore: 6.2,
+  lockIn: 'None',
+  dividendOption: 'Growth / IDCW',
+  settlement: 'T+3 Business Days',
+  taxation: 'LTCG > 1yr: 10% above ₹1 Lakh; STCG < 1yr: 15%',
+  investmentType: 'Growth / IDCW',
+
+  metrics: {
+    sharpeRatio: 1.84,
+    sortinoRatio: 2.18,
+    alpha: 4.6,
+    beta: 0.88,
+    standardDeviation: 12.4,
+    cagr3Y: 19.2,
+    volatility: 14.2,
+  },
+
+  objective: `The scheme seeks to generate long-term capital appreciation by investing predominantly in equity and equity-related instruments of large cap companies. The fund aims to build a high quality, diversified portfolio of large cap stocks with strong fundamentals, consistent earnings growth, and sustainable competitive advantages.`,
+
+  strategy: [
+    'Focus on companies with strong free cash flow generation and return on equity above 18%',
+    'Bottom-up stock picking combined with top-down macro overlay',
+    'Concentrated portfolio of 30-40 high conviction stocks with low churn',
+    'Risk management through sector diversification and position sizing limits',
+    'ESG-integrated research for long-term sustainability assessment',
+  ],
+
+  suitableFor: [
+    'Investors with a long-term investment horizon of 5+ years',
+    'Those seeking capital appreciation through large cap equities',
+    'Investors with moderate to high risk appetite',
+    'First-time equity investors looking for relative stability',
+  ],
+
+  keyFeatures: [
+    { icon: 'faShieldHalved', label: 'Capital Protection', desc: 'Focus on quality large-caps provides downside cushion' },
+    { icon: 'faArrowTrendUp', label: 'Consistent Alpha', desc: 'Delivered 4.6% alpha over benchmark consistently' },
+    { icon: 'faChartPie', label: 'Diversified Portfolio', desc: '30-40 stocks across 8+ sectors' },
+    { icon: 'faCoins', label: 'Low Cost', desc: '0.92% expense ratio, one of the lowest in category' },
+  ],
+
+  manager: {
+    id: 1,
+    name: 'Rahul Mehta, CFA',
+    image: null,
+    initials: 'RM',
+    designation: 'Senior Fund Manager – Equity',
+    experience: '18 Years',
+    education: 'MBA (Finance) – IIM Ahmedabad | CFA Charterholder',
+    specialization: 'Large Cap & Multi Cap Equity',
+    bio: 'Rahul Mehta brings over 18 years of experience in Indian equity markets. Before joining SIF Asset Management, he served as Portfolio Manager at HDFC AMC and Kotak Securities. He is known for his disciplined, research-driven investment style and has consistently delivered above-benchmark returns across market cycles.',
+    linkedin: '#',
+    email: 'rahul.mehta@sifinvest.in',
+    fundsManaged: [
+      { name: 'SIF Flexi Cap Alpha Fund', returns: '31.8%', risk: 'Moderate' },
+      { name: 'SIF ELSS Tax Saver Fund', returns: '26.8%', risk: 'High' },
+    ],
+  },
+
+  allocation: { equity: 92, debt: 3, cash: 4, others: 1 },
+
+  sectorAllocation: [
+    { sector: 'Financial Services', weight: 28.4 },
+    { sector: 'Information Technology', weight: 18.6 },
+    { sector: 'Consumer Goods', weight: 12.2 },
+    { sector: 'Healthcare', weight: 9.8 },
+    { sector: 'Energy', weight: 8.4 },
+    { sector: 'Automobile', weight: 7.2 },
+    { sector: 'Infrastructure', weight: 6.8 },
+    { sector: 'Telecom', weight: 4.6 },
+    { sector: 'Others', weight: 4.0 },
+  ],
+
+  holdings: [
+    { company: 'HDFC Bank Ltd.', sector: 'Financial Services', weight: 8.24, marketCap: 'Large Cap', rating: 'AAA' },
+    { company: 'Infosys Ltd.', sector: 'Information Technology', weight: 7.82, marketCap: 'Large Cap', rating: 'AAA' },
+    { company: 'Reliance Industries Ltd.', sector: 'Energy', weight: 7.14, marketCap: 'Large Cap', rating: 'AAA' },
+    { company: 'ICICI Bank Ltd.', sector: 'Financial Services', weight: 6.58, marketCap: 'Large Cap', rating: 'AAA' },
+    { company: 'TCS Ltd.', sector: 'Information Technology', weight: 5.94, marketCap: 'Large Cap', rating: 'AAA' },
+    { company: 'Larsen & Toubro Ltd.', sector: 'Infrastructure', weight: 4.82, marketCap: 'Large Cap', rating: 'AA+' },
+    { company: 'Hindustan Unilever Ltd.', sector: 'Consumer Goods', weight: 4.36, marketCap: 'Large Cap', rating: 'AA+' },
+    { company: 'Bajaj Finance Ltd.', sector: 'Financial Services', weight: 3.98, marketCap: 'Large Cap', rating: 'AA+' },
+    { company: 'Sun Pharmaceutical', sector: 'Healthcare', weight: 3.72, marketCap: 'Large Cap', rating: 'AA' },
+    { company: 'Maruti Suzuki India', sector: 'Automobile', weight: 3.44, marketCap: 'Large Cap', rating: 'AA' },
+  ],
+
+  documents: [
+    { name: 'Monthly Factsheet', type: 'Factsheet', date: 'Jul 2026', size: '2.4 MB', icon: 'faFilePdf' },
+    { name: 'Scheme Info Document (SID)', type: 'SID', date: 'Mar 2026', size: '1.8 MB', icon: 'faFilePdf' },
+    { name: 'Key Information Memorandum', type: 'KIM', date: 'Jul 2026', size: '0.6 MB', icon: 'faFilePdf' },
+    { name: 'Annual Report 2025-26', type: 'Annual Report', date: 'Jun 2026', size: '8.2 MB', icon: 'faFilePdf' },
+    { name: 'Portfolio Disclosure', type: 'Portfolio', date: 'Jun 2026', size: '1.1 MB', icon: 'faFilePdf' },
+    { name: 'Risk Disclosure Document', type: 'Risk', date: 'Mar 2026', size: '0.9 MB', icon: 'faFilePdf' },
+    { name: 'Tax Guide 2025-26', type: 'Tax', date: 'Apr 2026', size: '0.8 MB', icon: 'faFilePdf' },
+    { name: 'IDCW History Report', type: 'IDCW', date: 'Jul 2026', size: '0.5 MB', icon: 'faFilePdf' },
+  ],
+
+  performanceData: {
+    '1M':  { labels: Array.from({length:22},(_,i)=>i+1).map(d=>`Jun ${d}`), fund: Array.from({length:22},(_,i)=>100 + i*0.15 + Math.sin(i)*0.4), bench: Array.from({length:22},(_,i)=>100 + i*0.12 + Math.cos(i)*0.3) },
+    '3M':  { labels: ['Apr','May','Jun','Jul'], fund:[100,103.2,107.8,108.1], bench:[100,102.1,105.4,106.2] },
+    '6M':  { labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul'], fund:[100,102,107,110,115,112,114.5], bench:[100,101,104,107,110,108,110.2] },
+    '1Y':  { labels: ['Jul 25','Aug','Sep','Oct','Nov','Dec','Jan 26','Feb','Mar','Apr','May','Jun','Jul'], fund:[100,104,108,106,112,118,122,126,121,128,132,138,128.4], bench:[100,102,105,104,108,113,116,119,115,121,124,129,118.6] },
+    '3Y':  { labels: ['2023','2024','2025','2026'], fund:[100,118,142,183], bench:[100,114,133,165] },
+    '5Y':  { labels: ['2021','2022','2023','2024','2025','2026'], fund:[100,108,128,152,180,218], bench:[100,105,120,140,164,196] },
+    'Since Launch': { labels: ['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026'], fund:[10,11.2,13.8,12.4,15.6,14.2,18.4,21.6,26.8,32.4,38.2,46.1], bench:[10,10.8,12.9,11.8,14.2,13.1,16.8,19.4,23.6,28.2,32.8,39.6] },
+  },
+
+  performanceTable: [
+    { period: '1 Month', fund: '3.2%', benchmark: '2.8%', category: '2.6%', diff: '+0.4%', positive: true },
+    { period: '3 Months', fund: '8.1%', benchmark: '6.9%', category: '6.4%', diff: '+1.2%', positive: true },
+    { period: '6 Months', fund: '14.5%', benchmark: '12.2%', category: '11.8%', diff: '+2.3%', positive: true },
+    { period: '1 Year', fund: '28.4%', benchmark: '18.6%', category: '22.4%', diff: '+9.8%', positive: true },
+    { period: '3 Years', fund: '19.2%', benchmark: '14.2%', category: '16.8%', diff: '+4.6% (CAGR)', positive: true },
+    { period: '5 Years', fund: '16.8%', benchmark: '13.8%', category: '14.2%', diff: '+3.0% (CAGR)', positive: true },
+    { period: 'Since Launch', fund: '18.6%', benchmark: '14.4%', category: '15.8%', diff: '+4.2% (CAGR)', positive: true },
+  ],
+
+  faqs: [
+    { q: 'What is the investment objective of this fund?', a: 'The fund seeks to generate long-term capital appreciation by investing predominantly in equity and equity-related instruments of large-cap companies with strong fundamentals and sustainable competitive advantages.' },
+    { q: 'What is the minimum amount to invest?', a: 'You can start a SIP with as little as ₹500 per month. For lump sum investment, the minimum is ₹5,000.' },
+    { q: 'Is there any lock-in period?', a: 'No. This is an open-ended scheme with no lock-in period. However, an exit load of 1% is applicable if redeemed within 12 months of investment.' },
+    { q: 'How is this fund taxed?', a: 'Long-term capital gains (holding > 1 year) above ₹1 lakh are taxed at 10% without indexation. Short-term capital gains (holding < 1 year) are taxed at 15%.' },
+    { q: 'How is NAV calculated and when is it updated?', a: 'NAV is calculated at the end of each business day based on the closing market prices of the securities held in the portfolio. It is updated on the AMFI website by 11 PM on each business day.' },
+    { q: 'How can I track my investment performance?', a: 'You can track your investments through the SIF Invest app, website dashboard, or consolidated account statements (CAS) sent monthly to your registered email.' },
+  ],
+
+  relatedFunds: [
+    { id: 2, logo: '📈', logoColor: 'from-emerald-500 to-teal-600', name: 'SIF Mid Cap Momentum Fund', category: 'Mid Cap', returns1Y: '35.6%', risk: 'High', nav: '₹98.72' },
+    { id: 6, logo: '💎', logoColor: 'from-blue-600 to-cyan-600', name: 'SIF Flexi Cap Alpha Fund', category: 'Multi Cap', returns1Y: '31.8%', risk: 'Moderate', nav: '₹187.23' },
+    { id: 13, logo: '🏦', logoColor: 'from-blue-700 to-indigo-800', name: 'HDFC Nifty 50 Index Fund', category: 'Index', returns1Y: '18.6%', risk: 'Moderate', nav: '₹234.56' },
+    { id: 15, logo: '🌾', logoColor: 'from-lime-500 to-green-600', name: 'Mirae Asset Emerging Bluechip', category: 'Large & Mid Cap', returns1Y: '29.8%', risk: 'High', nav: '₹104.28' },
+  ],
+}
